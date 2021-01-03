@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web.6</title>
+    <style>
+    
+    .linerg{
+        background: linear-gradient(red,yellow);
+        border: solid black 2px;
+        border-radius: 10px;
+        width: 200px;
+        margin-left: 40%;
+        color: #fff;
+        text-align: center;
+    }
+    .container {
+    background: grey;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar1 main sidebar2"
+        "footer footer footer";
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    }
+
+    .header {
+    background: black;
+    height: 60px;
+    grid-area: header;
+    border-radius: 10px;
+    margin: 5px;
+    }
+
+    .one {
+    background: limegreen;
+    color: #fff;
+    padding: 10px;
+    height: 100px;
+    grid-area: sidebar1;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    }
+
+    .two {
+    background: pink;
+    color: #fff;
+    padding: 10px;
+    height: 100px;
+    grid-area: main;
+    border-radius: 10px;
+    margin: 5px;
+    }
+
+    .three {
+    background: navy;
+    color: #fff;
+    padding: 10px;
+    height: 100px;
+    grid-area: sidebar2;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: ;
+    }
+
+    .footer {
+    background: black;
+    height: 60px;
+    grid-area: footer;
+    border-radius: 10px;
+    margin: 5px;
+    }
+
+    .container {
+    background: grey;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "sidebar1 main sidebar2"
+        "footer footer footer";
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    }
+    h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="one">one</div>
+        <div class="two">two</div>
+        <div class="three">three</div>
+        <div class="footer">footer</div>
+    </div><br/><br/>
+    <div class="linerg"><h1>liner gradient</h1></div>
+
+
+</body>
+</html>

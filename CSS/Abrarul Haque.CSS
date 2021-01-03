@@ -1,0 +1,13 @@
+#bio{
+    background-color: navy;
+    text-align: center;
+    color: #fff;
+    border: solid 2px navy;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.container{
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
